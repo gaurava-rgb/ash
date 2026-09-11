@@ -1,0 +1,68 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#B9C2CC",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 106,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 860,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 860,
+      "parentColumnSpace": 1,
+      "parentId": "f3f21cfb96",
+      "parentRowSpace": 1,
+      "positioning": "fixed",
+      "rightColumn": 475,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": false,
+      "version": 1,
+      "widgetId": "137bc0c0ab",
+      "widgetName": "QueuePanelCanvas"
+    }
+  ],
+  "containerStyle": "card",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "isLoading": false,
+  "isVisible": "{{LabFlow.view() === \"requests\"}}",
+  "leftColumn": 1,
+  "minWidth": 0,
+  "mobileBottomRow": 106,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 20,
+  "originalBottomRow": 106,
+  "originalTopRow": 20,
+  "parentColumnSpace": 1,
+  "parentId": "0",
+  "parentRowSpace": 1,
+  "positioning": "fixed",
+  "responsiveBehavior": "fill",
+  "rightColumn": 26,
+  "shouldScrollContents": true,
+  "topRow": 20,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "f3f21cfb96",
+  "widgetName": "QueuePanel"
+}

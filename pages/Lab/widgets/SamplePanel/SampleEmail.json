@@ -1,0 +1,54 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 35,
+  "defaultCheckedState": "{{LabFlow.selectedSample() ? LabFlow.selectedSample().email : false}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultCheckedState"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": "{{!LabFlow.selectedSample()}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "label": "Email",
+  "labelPosition": "Right",
+  "leftColumn": 38,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 54,
+  "mobileTopRow": 31,
+  "originalBottomRow": 35,
+  "originalTopRow": 31,
+  "parentColumnSpace": 19,
+  "parentId": "90837b1c54",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 54,
+  "topRow": 31,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "ec1de806e0",
+  "widgetName": "SampleEmail"
+}

@@ -1,0 +1,68 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#B9C2CC",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 98,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 320,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 320,
+      "parentColumnSpace": 1,
+      "parentId": "03f483fbfc",
+      "parentRowSpace": 1,
+      "positioning": "fixed",
+      "rightColumn": 475,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": false,
+      "version": 1,
+      "widgetId": "a1d1ea5ada",
+      "widgetName": "AddEquipmentPanelCanvas"
+    }
+  ],
+  "containerStyle": "card",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "isLoading": false,
+  "isVisible": "{{LabFlow.view() === \"equipment\"}}",
+  "leftColumn": 1,
+  "minWidth": 0,
+  "mobileBottomRow": 98,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 66,
+  "originalBottomRow": 98,
+  "originalTopRow": 66,
+  "parentColumnSpace": 1,
+  "parentId": "0",
+  "parentRowSpace": 1,
+  "positioning": "fixed",
+  "responsiveBehavior": "fill",
+  "rightColumn": 26,
+  "shouldScrollContents": true,
+  "topRow": 66,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "03f483fbfc",
+  "widgetName": "AddEquipmentPanel"
+}

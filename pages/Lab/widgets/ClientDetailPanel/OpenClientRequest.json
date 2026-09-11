@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 79,
+  "boxShadow": "none",
+  "buttonColor": "#1E6B5C",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{!ClientRequestsTable.selectedRow?.id}}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 2,
+  "minWidth": 0,
+  "mobileBottomRow": 79,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 74,
+  "onClick": "{{LabFlow.openRequest(ClientRequestsTable.selectedRow.id)}}",
+  "originalBottomRow": 79,
+  "originalTopRow": 74,
+  "parentColumnSpace": 19,
+  "parentId": "74b561bff6",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "text": "Open selected request",
+  "topRow": 74,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "368af629d8",
+  "widgetName": "OpenClientRequest"
+}

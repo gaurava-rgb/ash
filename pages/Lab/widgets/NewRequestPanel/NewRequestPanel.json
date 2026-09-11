@@ -1,0 +1,68 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#B9C2CC",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 94,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 740,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [],
+      "dynamicTriggerPathList": [],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 740,
+      "parentColumnSpace": 1,
+      "parentId": "3249820bf4",
+      "parentRowSpace": 1,
+      "positioning": "fixed",
+      "rightColumn": 836,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": false,
+      "version": 1,
+      "widgetId": "7e1cae45cb",
+      "widgetName": "NewRequestPanelCanvas"
+    }
+  ],
+  "containerStyle": "card",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "isLoading": false,
+  "isVisible": "{{LabFlow.view() === \"newRequest\"}}",
+  "leftColumn": 10,
+  "minWidth": 0,
+  "mobileBottomRow": 94,
+  "mobileLeftColumn": 10,
+  "mobileRightColumn": 54,
+  "mobileTopRow": 20,
+  "originalBottomRow": 94,
+  "originalTopRow": 20,
+  "parentColumnSpace": 1,
+  "parentId": "0",
+  "parentRowSpace": 1,
+  "positioning": "fixed",
+  "responsiveBehavior": "fill",
+  "rightColumn": 54,
+  "shouldScrollContents": true,
+  "topRow": 20,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "3249820bf4",
+  "widgetName": "NewRequestPanel"
+}
