@@ -1,0 +1,1 @@
+update clients set name = {{ClientNameInput.text}}, contact = {{ClientContactInput.text}}, email = {{ClientEmailInput.text}}, billing = {{ClientBillingInput.text}} where id = {{ClientsTable.selectedRow.id}};

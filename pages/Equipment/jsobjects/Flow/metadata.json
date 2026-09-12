@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6aa3478a31b78c6856a59b3a_54f818b0-9ccb-49d6-b3a0-37852808dad8",
+  "id": "Equipment_Flow",
+  "unpublishedCollection": {
+    "name": "Flow",
+    "pageId": "Equipment",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

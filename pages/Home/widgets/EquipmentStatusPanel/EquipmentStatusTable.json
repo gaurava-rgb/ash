@@ -1,0 +1,245 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
+  "animateLoading": true,
+  "borderColor": "#DDE3EA",
+  "borderRadius": "8px",
+  "borderWidth": "1",
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "code",
+    "name",
+    "condition",
+    "location"
+  ],
+  "columnUpdatedAt": 1789085581414,
+  "columnWidthMap": {
+    "code": 80,
+    "name": 220,
+    "condition": 130,
+    "location": 160
+  },
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": -1,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicHeight": "FIXED",
+  "emptyStateText": "Nothing here.",
+  "enableClientSideSearch": false,
+  "enableServerSideFiltering": false,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isMultiRowSelection": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": false,
+  "label": "Data",
+  "leftColumn": 2,
+  "minWidth": 0,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 6,
+  "needsHeightForContent": true,
+  "originalBottomRow": 28,
+  "originalTopRow": 6,
+  "parentColumnSpace": 19,
+  "parentId": "8fa7bb271f",
+  "parentRowSpace": 10,
+  "primaryColumnId": "id",
+  "primaryColumns": {
+    "code": {
+      "alias": "code",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{EquipmentStatusTable.processedTableData.map(row => row[\"code\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "code",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "ID",
+      "labelColor": "#FFFFFF",
+      "originalId": "code",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 80
+    },
+    "name": {
+      "alias": "name",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{EquipmentStatusTable.processedTableData.map(row => row[\"name\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "name",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Instrument",
+      "labelColor": "#FFFFFF",
+      "originalId": "name",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 220
+    },
+    "condition": {
+      "alias": "condition",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{EquipmentStatusTable.processedTableData.map(row => row[\"condition\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "condition",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Condition",
+      "labelColor": "#FFFFFF",
+      "originalId": "condition",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 130
+    },
+    "location": {
+      "alias": "location",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{EquipmentStatusTable.processedTableData.map(row => row[\"location\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "location",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Location",
+      "labelColor": "#FFFFFF",
+      "originalId": "location",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 160
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "rowHeight": 40,
+  "searchKey": "",
+  "serverSidePaginationEnabled": false,
+  "tableData": "{{getEquipmentStatus.data}}",
+  "textSize": "0.75rem",
+  "topRow": 6,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "verticalAlignment": "CENTER",
+  "widgetId": "b846051a5b",
+  "widgetName": "EquipmentStatusTable",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "childStylesheet.button.borderRadius"
+    },
+    {
+      "key": "childStylesheet.button.buttonColor"
+    },
+    {
+      "key": "childStylesheet.editActions.discardBorderRadius"
+    },
+    {
+      "key": "childStylesheet.editActions.discardButtonColor"
+    },
+    {
+      "key": "childStylesheet.editActions.saveBorderRadius"
+    },
+    {
+      "key": "childStylesheet.editActions.saveButtonColor"
+    },
+    {
+      "key": "childStylesheet.iconButton.borderRadius"
+    },
+    {
+      "key": "childStylesheet.iconButton.buttonColor"
+    },
+    {
+      "key": "childStylesheet.menuButton.borderRadius"
+    },
+    {
+      "key": "childStylesheet.menuButton.menuColor"
+    },
+    {
+      "key": "primaryColumns.code.computedValue"
+    },
+    {
+      "key": "primaryColumns.name.computedValue"
+    },
+    {
+      "key": "primaryColumns.condition.computedValue"
+    },
+    {
+      "key": "primaryColumns.location.computedValue"
+    },
+    {
+      "key": "tableData"
+    }
+  ]
+}

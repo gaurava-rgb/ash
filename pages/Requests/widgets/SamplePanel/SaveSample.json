@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "buttonColor": "#1E6B5C",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{!SamplesTable.selectedRow || !SamplesTable.selectedRow.id}}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 52,
+  "minWidth": 0,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 52,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 28,
+  "originalBottomRow": 33,
+  "originalTopRow": 28,
+  "parentColumnSpace": 19,
+  "parentId": "5949552bfe",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "text": "Save sample",
+  "topRow": 28,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "52b1ed6cf3",
+  "widgetName": "SaveSample",
+  "onClick": "{{Flow.saveSample()}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ]
+}

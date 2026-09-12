@@ -1,0 +1,98 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{EquipmentTable.selectedRow ? (EquipmentTable.selectedRow.condition ?? \"\") : \"\"}}",
+  "displayName": "Select",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": "{{!EquipmentTable.selectedRow || !EquipmentTable.selectedRow.id}}",
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Condition",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 14,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 22,
+  "originalTopRow": 14,
+  "parentColumnSpace": 19,
+  "parentId": "a1b87d0363",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "serverSideFiltering": false,
+  "sourceData": [
+    {
+      "label": "All",
+      "value": "All"
+    },
+    {
+      "label": "New",
+      "value": "New"
+    },
+    {
+      "label": "Active",
+      "value": "Active"
+    },
+    {
+      "label": "Blocked",
+      "value": "Blocked"
+    },
+    {
+      "label": "Complete",
+      "value": "Complete"
+    }
+  ],
+  "topRow": 14,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "acfb276645",
+  "widgetName": "EquipmentConditionSelect",
+  "options": [
+    {
+      "label": "Available",
+      "value": "Available"
+    },
+    {
+      "label": "Under repair",
+      "value": "Under repair"
+    },
+    {
+      "label": "Out of service",
+      "value": "Out of service"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ]
+}

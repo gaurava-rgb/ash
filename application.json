@@ -16,8 +16,20 @@
   "icon": "lotus",
   "pages": [
     {
-      "id": "Lab",
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Requests",
+      "isDefault": false
+    },
+    {
+      "id": "Clients",
+      "isDefault": false
+    },
+    {
+      "id": "Equipment",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "defaultText": "{{SamplesTable.selectedRow ? (SamplesTable.selectedRow.time_spent ?? \"\") : \"\"}}",
+  "displayName": "Input",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": "{{!SamplesTable.selectedRow || !SamplesTable.selectedRow.id}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 41,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 41,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 28,
+  "originalBottomRow": 33,
+  "originalTopRow": 28,
+  "parentColumnSpace": 19,
+  "parentId": "5949552bfe",
+  "parentRowSpace": 10,
+  "placeholderText": "Time",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "showStepArrows": false,
+  "topRow": 28,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "143d17dce4",
+  "widgetName": "SampleTimeInput",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ]
+}

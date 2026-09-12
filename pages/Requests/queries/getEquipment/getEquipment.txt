@@ -1,0 +1,1 @@
+select id, code, name, condition from equipment order by name;

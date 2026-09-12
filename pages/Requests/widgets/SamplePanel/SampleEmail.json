@@ -1,0 +1,54 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "defaultCheckedState": "{{SamplesTable.selectedRow ? !!SamplesTable.selectedRow.email : false}}",
+  "displayName": "Checkbox",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": "{{!SamplesTable.selectedRow || !SamplesTable.selectedRow.id}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "label": "Emailed",
+  "labelPosition": "Right",
+  "leftColumn": 28,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 29,
+  "originalBottomRow": 33,
+  "originalTopRow": 29,
+  "parentColumnSpace": 19,
+  "parentId": "5949552bfe",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "topRow": 29,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "678d7eeecf",
+  "widgetName": "SampleEmail",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultCheckedState"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ]
+}

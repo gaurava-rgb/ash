@@ -1,0 +1,4 @@
+select code, title, client, assignee, status, to_char(due, 'YYYY-MM-DD') as due, samples_done || ' / ' || sample_count as progress
+from request_overview
+where status <> 'Complete' and due between current_date and current_date + 14
+order by due;

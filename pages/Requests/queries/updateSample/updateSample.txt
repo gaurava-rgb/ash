@@ -1,0 +1,2 @@
+update samples set scan = {{SampleScan.isChecked}}, export = {{SampleExport.isChecked}}, email = {{SampleEmail.isChecked}},
+  time_spent = {{SampleTimeInput.text}} where id = {{SamplesTable.selectedRow.id}};

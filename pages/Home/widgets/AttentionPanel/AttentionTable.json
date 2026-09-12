@@ -1,0 +1,278 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
+  "animateLoading": true,
+  "borderColor": "#DDE3EA",
+  "borderRadius": "8px",
+  "borderWidth": "1",
+  "bottomRow": 50,
+  "boxShadow": "none",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "code",
+    "title",
+    "reason",
+    "assignee",
+    "due"
+  ],
+  "columnUpdatedAt": 1789085581414,
+  "columnWidthMap": {
+    "code": 80,
+    "title": 170,
+    "reason": 90,
+    "assignee": 110,
+    "due": 90
+  },
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": -1,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicHeight": "FIXED",
+  "emptyStateText": "Nothing here.",
+  "enableClientSideSearch": false,
+  "enableServerSideFiltering": false,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isMultiRowSelection": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": false,
+  "label": "Data",
+  "leftColumn": 2,
+  "minWidth": 0,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 9,
+  "needsHeightForContent": true,
+  "originalBottomRow": 50,
+  "originalTopRow": 9,
+  "parentColumnSpace": 19,
+  "parentId": "df06de8d18",
+  "parentRowSpace": 10,
+  "primaryColumnId": "id",
+  "primaryColumns": {
+    "code": {
+      "alias": "code",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{AttentionTable.processedTableData.map(row => row[\"code\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "code",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "ID",
+      "labelColor": "#FFFFFF",
+      "originalId": "code",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 80
+    },
+    "title": {
+      "alias": "title",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{AttentionTable.processedTableData.map(row => row[\"title\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "title",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Request",
+      "labelColor": "#FFFFFF",
+      "originalId": "title",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 170
+    },
+    "reason": {
+      "alias": "reason",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{AttentionTable.processedTableData.map(row => row[\"reason\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "reason",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Why",
+      "labelColor": "#FFFFFF",
+      "originalId": "reason",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 90
+    },
+    "assignee": {
+      "alias": "assignee",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{AttentionTable.processedTableData.map(row => row[\"assignee\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "assignee",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Assignee",
+      "labelColor": "#FFFFFF",
+      "originalId": "assignee",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 110
+    },
+    "due": {
+      "alias": "due",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{AttentionTable.processedTableData.map(row => row[\"due\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "due",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Due",
+      "labelColor": "#FFFFFF",
+      "originalId": "due",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 90
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "rowHeight": 40,
+  "searchKey": "",
+  "serverSidePaginationEnabled": false,
+  "tableData": "{{getAttention.data}}",
+  "textSize": "0.75rem",
+  "topRow": 9,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "verticalAlignment": "CENTER",
+  "widgetId": "7181ebd780",
+  "widgetName": "AttentionTable",
+  "onRowSelected": "{{storeValue(\"requestFocus\", AttentionTable.selectedRow.code).then(() => navigateTo(\"Requests\", {}, \"SAME_WINDOW\"))}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "childStylesheet.button.borderRadius"
+    },
+    {
+      "key": "childStylesheet.button.buttonColor"
+    },
+    {
+      "key": "childStylesheet.editActions.discardBorderRadius"
+    },
+    {
+      "key": "childStylesheet.editActions.discardButtonColor"
+    },
+    {
+      "key": "childStylesheet.editActions.saveBorderRadius"
+    },
+    {
+      "key": "childStylesheet.editActions.saveButtonColor"
+    },
+    {
+      "key": "childStylesheet.iconButton.borderRadius"
+    },
+    {
+      "key": "childStylesheet.iconButton.buttonColor"
+    },
+    {
+      "key": "childStylesheet.menuButton.borderRadius"
+    },
+    {
+      "key": "childStylesheet.menuButton.menuColor"
+    },
+    {
+      "key": "primaryColumns.code.computedValue"
+    },
+    {
+      "key": "primaryColumns.title.computedValue"
+    },
+    {
+      "key": "primaryColumns.reason.computedValue"
+    },
+    {
+      "key": "primaryColumns.assignee.computedValue"
+    },
+    {
+      "key": "primaryColumns.due.computedValue"
+    },
+    {
+      "key": "tableData"
+    }
+  ]
+}

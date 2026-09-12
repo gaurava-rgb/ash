@@ -1,0 +1,5 @@
+select code, title, client, assignee, status, to_char(due, 'YYYY-MM-DD') as due,
+  case when overdue then 'Overdue' when status = 'Blocked' then 'Blocked' when assignee = 'Unassigned' then 'Unassigned' end as reason
+from request_overview
+where status <> 'Complete' and (overdue or status = 'Blocked' or assignee = 'Unassigned')
+order by overdue desc, due nulls last;

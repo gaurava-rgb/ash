@@ -1,0 +1,1 @@
+select code, title, status, assignee, to_char(due, 'YYYY-MM-DD') as due from request_overview where equipment_id = {{EquipmentTable.selectedRow.id}} order by due desc nulls last;

@@ -1,0 +1,278 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
+  "animateLoading": true,
+  "borderColor": "#DDE3EA",
+  "borderRadius": "8px",
+  "borderWidth": "1",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "name",
+    "scanLabel",
+    "exportLabel",
+    "time_spent",
+    "emailLabel"
+  ],
+  "columnUpdatedAt": 1789085581414,
+  "columnWidthMap": {
+    "name": 160,
+    "scanLabel": 60,
+    "exportLabel": 60,
+    "time_spent": 70,
+    "emailLabel": 60
+  },
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicHeight": "FIXED",
+  "emptyStateText": "Nothing here.",
+  "enableClientSideSearch": false,
+  "enableServerSideFiltering": false,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isMultiRowSelection": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": false,
+  "label": "Data",
+  "leftColumn": 2,
+  "minWidth": 0,
+  "mobileBottomRow": 27,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 7,
+  "needsHeightForContent": true,
+  "originalBottomRow": 27,
+  "originalTopRow": 7,
+  "parentColumnSpace": 19,
+  "parentId": "5949552bfe",
+  "parentRowSpace": 10,
+  "primaryColumnId": "id",
+  "primaryColumns": {
+    "name": {
+      "alias": "name",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{SamplesTable.processedTableData.map(row => row[\"name\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "name",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Sample",
+      "labelColor": "#FFFFFF",
+      "originalId": "name",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 160
+    },
+    "scanLabel": {
+      "alias": "scanLabel",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{SamplesTable.processedTableData.map(row => row[\"scanLabel\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "scanLabel",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Scan",
+      "labelColor": "#FFFFFF",
+      "originalId": "scanLabel",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 60
+    },
+    "exportLabel": {
+      "alias": "exportLabel",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{SamplesTable.processedTableData.map(row => row[\"exportLabel\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "exportLabel",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Export",
+      "labelColor": "#FFFFFF",
+      "originalId": "exportLabel",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 60
+    },
+    "time_spent": {
+      "alias": "time_spent",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{SamplesTable.processedTableData.map(row => row[\"time_spent\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "time_spent",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Time",
+      "labelColor": "#FFFFFF",
+      "originalId": "time_spent",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 70
+    },
+    "emailLabel": {
+      "alias": "emailLabel",
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{SamplesTable.processedTableData.map(row => row[\"emailLabel\"])}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "emailLabel",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isVisible": true,
+      "label": "Email",
+      "labelColor": "#FFFFFF",
+      "originalId": "emailLabel",
+      "sticky": "",
+      "textSize": "0.75rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 60
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "rowHeight": 40,
+  "searchKey": "",
+  "serverSidePaginationEnabled": false,
+  "tableData": "{{(getSamples.data || []).map(s => ({...s, scanLabel: s.scan ? \"\u2713\" : \"\", exportLabel: s.export ? \"\u2713\" : \"\", emailLabel: s.email ? \"\u2713\" : \"\"}))}}",
+  "textSize": "0.75rem",
+  "topRow": 7,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "verticalAlignment": "CENTER",
+  "widgetId": "e7661b360e",
+  "widgetName": "SamplesTable",
+  "onRowSelected": "{{Flow.resetSample()}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "childStylesheet.button.borderRadius"
+    },
+    {
+      "key": "childStylesheet.button.buttonColor"
+    },
+    {
+      "key": "childStylesheet.editActions.discardBorderRadius"
+    },
+    {
+      "key": "childStylesheet.editActions.discardButtonColor"
+    },
+    {
+      "key": "childStylesheet.editActions.saveBorderRadius"
+    },
+    {
+      "key": "childStylesheet.editActions.saveButtonColor"
+    },
+    {
+      "key": "childStylesheet.iconButton.borderRadius"
+    },
+    {
+      "key": "childStylesheet.iconButton.buttonColor"
+    },
+    {
+      "key": "childStylesheet.menuButton.borderRadius"
+    },
+    {
+      "key": "childStylesheet.menuButton.menuColor"
+    },
+    {
+      "key": "primaryColumns.name.computedValue"
+    },
+    {
+      "key": "primaryColumns.scanLabel.computedValue"
+    },
+    {
+      "key": "primaryColumns.exportLabel.computedValue"
+    },
+    {
+      "key": "primaryColumns.time_spent.computedValue"
+    },
+    {
+      "key": "primaryColumns.emailLabel.computedValue"
+    },
+    {
+      "key": "tableData"
+    }
+  ]
+}

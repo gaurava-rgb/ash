@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "buttonColor": "#1E6B5C",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{!RequestsTable.selectedRow || !RequestsTable.selectedRow.id}}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 2,
+  "minWidth": 0,
+  "mobileBottomRow": 59,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 54,
+  "originalBottomRow": 59,
+  "originalTopRow": 54,
+  "parentColumnSpace": 19,
+  "parentId": "a2263e4753",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 26,
+  "text": "Save request",
+  "topRow": 54,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "b71188f4be",
+  "widgetName": "SaveRequest",
+  "onClick": "{{Flow.saveRequest()}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ]
+}

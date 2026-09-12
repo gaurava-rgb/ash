@@ -1,0 +1,1 @@
+insert into samples (request_id, name) values ({{RequestsTable.selectedRow.id}}, {{NewSampleInput.text}});

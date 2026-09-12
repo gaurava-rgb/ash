@@ -1,0 +1,4 @@
+insert into requests (code, title, client_id, equipment_id, assignee, status, submitted, due, notes)
+values ({{NewCodeInput.text}}, {{NewTitleInput.text}}, {{NewClientSelect.selectedOptionValue}}, {{NewEquipmentSelect.selectedOptionValue}},
+  {{NewAssigneeSelect.selectedOptionValue}}, 'New', nullif({{NewSubmittedInput.text}}, '')::date, nullif({{NewDueInput.text}}, '')::date, {{NewNotesInput.text}})
+returning code;

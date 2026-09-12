@@ -1,0 +1,1 @@
+select c.*, (select count(*) from requests r where r.client_id = c.id) as request_count from clients c order by name;

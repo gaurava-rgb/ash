@@ -1,0 +1,1 @@
+select id, code, name from clients order by name;

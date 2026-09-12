@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 95,
+  "boxShadow": "none",
+  "buttonColor": "#1E6B5C",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{!ClientRequestsTable.selectedRow || !ClientRequestsTable.selectedRow.code}}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 2,
+  "minWidth": 0,
+  "mobileBottomRow": 95,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 90,
+  "originalBottomRow": 95,
+  "originalTopRow": 90,
+  "parentColumnSpace": 19,
+  "parentId": "2b898058d5",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "text": "Open selected request",
+  "topRow": 90,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "f040ef35ae",
+  "widgetName": "OpenClientRequest",
+  "onClick": "{{Flow.open()}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ]
+}

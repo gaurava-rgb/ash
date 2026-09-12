@@ -1,0 +1,1 @@
+update equipment set name = {{EquipmentNameInput.text}}, condition = {{EquipmentConditionSelect.selectedOptionValue}}, location = {{EquipmentLocationInput.text}}, tips = {{EquipmentTipsInput.text}} where id = {{EquipmentTable.selectedRow.id}};

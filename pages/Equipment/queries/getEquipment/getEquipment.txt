@@ -1,0 +1,1 @@
+select e.*, (select count(*) from requests r where r.equipment_id = e.id and r.status <> 'Complete') as open_requests from equipment e order by name;

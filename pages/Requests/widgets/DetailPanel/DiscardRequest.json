@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "buttonColor": "#1E6B5C",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{!RequestsTable.selectedRow || !RequestsTable.selectedRow.id}}",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 44,
+  "minWidth": 0,
+  "mobileBottomRow": 59,
+  "mobileLeftColumn": 44,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 54,
+  "originalBottomRow": 59,
+  "originalTopRow": 54,
+  "parentColumnSpace": 19,
+  "parentId": "a2263e4753",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "text": "Discard edits",
+  "topRow": 54,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5973be246b",
+  "widgetName": "DiscardRequest",
+  "onClick": "{{Flow.resetDetail()}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ]
+}
