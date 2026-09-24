@@ -1,0 +1,48 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "defaultCheckedState": false,
+  "displayName": "Checkbox",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "label": "Show inactive",
+  "labelPosition": "Right",
+  "leftColumn": 24,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 1,
+  "originalBottomRow": 5,
+  "originalTopRow": 1,
+  "parentColumnSpace": 19,
+  "parentId": "77917c2463",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 38,
+  "topRow": 1,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "185d002aa0",
+  "widgetName": "ShowInactiveClients",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ]
+}

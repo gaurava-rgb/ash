@@ -1,0 +1,87 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{((getEquipmentItem.data && getEquipmentItem.data[0] ? getEquipmentItem.data[0] : {})[\"condition\"] ?? \"Available\")}}",
+  "displayName": "Select",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Condition",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 9,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 17,
+  "originalTopRow": 9,
+  "parentColumnSpace": 19,
+  "parentId": "34fd2bbe86",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "serverSideFiltering": false,
+  "sourceData": [
+    {
+      "label": "Available",
+      "value": "Available"
+    },
+    {
+      "label": "Under repair",
+      "value": "Under repair"
+    },
+    {
+      "label": "Out of service",
+      "value": "Out of service"
+    }
+  ],
+  "topRow": 9,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "53bed5ad08",
+  "widgetName": "EquipmentConditionSelect",
+  "options": [
+    {
+      "label": "Available",
+      "value": "Available"
+    },
+    {
+      "label": "Under repair",
+      "value": "Under repair"
+    },
+    {
+      "label": "Out of service",
+      "value": "Out of service"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "select\n  count(*) filter (where status <> 'Complete') as open_requests,\n  count(*) filter (where assignee = 'Unassigned' and status <> 'Complete') as unassigned,\n  count(*) filter (where status <> 'Complete' and due between current_date and current_date + 7) as due_week,\n  count(*) filter (where overdue) as overdue,\n  (select count(*) from equipment where condition <> 'Available') as equipment_down\nfrom request_overview;",
+      "body": "select\n  count(*) filter (where status <> 'Complete') as open_requests,\n  count(*) filter (where assignee = 'Unassigned' and status <> 'Complete') as unassigned,\n  count(*) filter (where overdue) as overdue,\n  count(*) filter (where status = 'Blocked') as blocked,\n  (select count(*) from equipment where active and condition <> 'Available') as equipment_down\nfrom request_overview;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

@@ -1,0 +1,1 @@
+insert into staff (name, description, user_type, active, updated_by) values ({{StaffNameInput.text}}, {{StaffDescInput.text}}, {{StaffTypeSelect.selectedOptionValue}}, {{StaffActive.isChecked}}, {{appsmith.user.email}}) returning id, code;

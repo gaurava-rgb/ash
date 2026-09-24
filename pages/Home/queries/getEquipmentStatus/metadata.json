@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "select code, name, condition, location from equipment order by condition <> 'Available' desc, name;",
+      "body": "select id, code, name, condition, location from equipment where active order by condition <> 'Available' desc, name;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

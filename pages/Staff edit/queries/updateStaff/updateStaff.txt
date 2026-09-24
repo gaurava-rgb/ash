@@ -1,0 +1,1 @@
+update staff set name = {{StaffNameInput.text}}, description = {{StaffDescInput.text}}, user_type = {{StaffTypeSelect.selectedOptionValue}}, active = {{StaffActive.isChecked}}, updated_at = now(), updated_by = {{appsmith.user.email}} where id = {{appsmith.URL.queryParams.id}};

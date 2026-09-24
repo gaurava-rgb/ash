@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "select code, title, client, assignee, status, to_char(due, 'YYYY-MM-DD') as due,\n  case when overdue then 'Overdue' when status = 'Blocked' then 'Blocked' when assignee = 'Unassigned' then 'Unassigned' end as reason\nfrom request_overview\nwhere status <> 'Complete' and (overdue or status = 'Blocked' or assignee = 'Unassigned')\norder by overdue desc, due nulls last;",
+      "body": "select id, code, title, client, assignee, status, to_char(due, 'YYYY-MM-DD') as due,\n  case when overdue then 'Overdue' when status = 'Blocked' then 'Blocked' when assignee = 'Unassigned' then 'Unassigned' end as reason\nfrom request_overview\nwhere status <> 'Complete' and (overdue or status = 'Blocked' or assignee = 'Unassigned')\norder by overdue desc, due nulls last;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

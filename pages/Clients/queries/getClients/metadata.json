@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "select c.*, (select count(*) from requests r where r.client_id = c.id) as request_count from clients c order by name;",
+      "body": "select c.id, c.code, c.name, c.contact, c.email, c.billing, c.active, (select count(*) from requests r where r.client_id = c.id) as request_count from clients c order by name;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

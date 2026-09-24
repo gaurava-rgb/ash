@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicHeight": "FIXED",
+  "fontFamily": "System Default",
+  "fontSize": "1.25rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 14,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 54,
+  "mobileTopRow": 10,
+  "originalBottomRow": 15,
+  "originalTopRow": 10,
+  "overflow": "NONE",
+  "parentColumnSpace": 19,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 54,
+  "shouldTruncate": false,
+  "text": "{{(getSample.data && getSample.data[0] ? getSample.data[0] : {}).request_code ? (getSample.data && getSample.data[0] ? getSample.data[0] : {}).request_code + \" \u00b7 \" + (getSample.data && getSample.data[0] ? getSample.data[0] : {}).name : \"Loading\u2026\"}}",
+  "textAlign": "LEFT",
+  "textColor": "#172B4D",
+  "textStyle": "BODY",
+  "topRow": 10,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "d89b62a710",
+  "widgetName": "SampleHeading",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "truncateButtonColor"
+    }
+  ]
+}

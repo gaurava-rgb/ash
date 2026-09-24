@@ -1,0 +1,51 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 31,
+  "defaultCheckedState": "{{((getSample.data && getSample.data[0] ? getSample.data[0] : {})[\"active\"] ?? true)}}",
+  "displayName": "Checkbox",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "label": "Active (untick to retire this sample)",
+  "labelPosition": "Right",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 27,
+  "originalBottomRow": 31,
+  "originalTopRow": 27,
+  "parentColumnSpace": 19,
+  "parentId": "b6bf1b2692",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "topRow": 27,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "80a05b4ff2",
+  "widgetName": "SampleActive",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ]
+}

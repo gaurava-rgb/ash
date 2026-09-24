@@ -1,0 +1,1 @@
+insert into samples (request_id, name, updated_by) values ({{appsmith.URL.queryParams.id}}, {{NewSampleInput.text}}, {{appsmith.user.email}});

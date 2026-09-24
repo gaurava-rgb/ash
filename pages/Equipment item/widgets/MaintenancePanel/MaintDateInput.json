@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 35,
+  "boxShadow": "none",
+  "defaultText": "{{moment().format(\"YYYY-MM-DD\")}}",
+  "displayName": "Input",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 30,
+  "originalBottomRow": 35,
+  "originalTopRow": 30,
+  "parentColumnSpace": 19,
+  "parentId": "ed5da3f3e6",
+  "parentRowSpace": 10,
+  "placeholderText": "YYYY-MM-DD",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 20,
+  "showStepArrows": false,
+  "topRow": 30,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "fc6f9424fd",
+  "widgetName": "MaintDateInput",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ]
+}

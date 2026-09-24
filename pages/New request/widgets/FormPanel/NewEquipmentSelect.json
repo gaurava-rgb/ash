@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Equipment (optional)",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 33,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 13,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 21,
+  "originalTopRow": 13,
+  "parentColumnSpace": 19,
+  "parentId": "7d69940c7f",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "serverSideFiltering": false,
+  "sourceData": "{{(getEquipment.data || []).map(r => ({label: r.name, value: r.id}))}}",
+  "topRow": 13,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "227a2b9cc1",
+  "widgetName": "NewEquipmentSelect",
+  "options": "{{(getEquipment.data || []).map(r => ({label: r.name, value: r.id}))}}",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "options"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "defaultCheckedState": "{{((getSample.data && getSample.data[0] ? getSample.data[0] : {})[\"export\"] ?? false)}}",
+  "displayName": "Checkbox",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "label": "Exported",
+  "labelPosition": "Right",
+  "leftColumn": 17,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 13,
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
+  "parentColumnSpace": 19,
+  "parentId": "b6bf1b2692",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "topRow": 13,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "fb96039d95",
+  "widgetName": "SampleExport",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ]
+}

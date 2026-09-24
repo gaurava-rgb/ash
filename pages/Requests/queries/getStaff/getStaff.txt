@@ -1,1 +1,0 @@
-select name from staff where active order by name;

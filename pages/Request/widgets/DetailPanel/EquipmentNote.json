@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicHeight": "FIXED",
+  "fontFamily": "System Default",
+  "fontSize": "0.6875rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 44,
+  "mobileTopRow": 8,
+  "originalBottomRow": 11,
+  "originalTopRow": 8,
+  "overflow": "NONE",
+  "parentColumnSpace": 19,
+  "parentId": "7833b49cab",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 44,
+  "shouldTruncate": false,
+  "text": "{{(getRequest.data && getRequest.data[0] ? getRequest.data[0] : {}).equipment_condition && (getRequest.data && getRequest.data[0] ? getRequest.data[0] : {}).equipment_condition !== \"Available\" ? \"\u26a0 \" + (getRequest.data && getRequest.data[0] ? getRequest.data[0] : {}).equipment_condition : \"\"}}",
+  "textAlign": "LEFT",
+  "textColor": "#986000",
+  "textStyle": "BODY",
+  "topRow": 8,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "661e54d452",
+  "widgetName": "EquipmentNote",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "truncateButtonColor"
+    }
+  ]
+}

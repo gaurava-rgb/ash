@@ -1,1 +1,1 @@
-select code, name, condition, location from equipment order by condition <> 'Available' desc, name;
+select id, code, name, condition, location from equipment where active order by condition <> 'Available' desc, name;

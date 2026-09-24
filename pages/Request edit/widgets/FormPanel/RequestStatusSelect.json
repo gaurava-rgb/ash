@@ -1,0 +1,95 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 26,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{((getRequest.data && getRequest.data[0] ? getRequest.data[0] : {})[\"status\"] ?? \"\")}}",
+  "displayName": "Select",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Status",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 18,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 26,
+  "originalTopRow": 18,
+  "parentColumnSpace": 19,
+  "parentId": "4cef5cfe31",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "serverSideFiltering": false,
+  "sourceData": [
+    {
+      "label": "New",
+      "value": "New"
+    },
+    {
+      "label": "Active",
+      "value": "Active"
+    },
+    {
+      "label": "Blocked",
+      "value": "Blocked"
+    },
+    {
+      "label": "Complete",
+      "value": "Complete"
+    }
+  ],
+  "topRow": 18,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "0a44f9283d",
+  "widgetName": "RequestStatusSelect",
+  "options": [
+    {
+      "label": "New",
+      "value": "New"
+    },
+    {
+      "label": "Active",
+      "value": "Active"
+    },
+    {
+      "label": "Blocked",
+      "value": "Blocked"
+    },
+    {
+      "label": "Complete",
+      "value": "Complete"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ]
+}

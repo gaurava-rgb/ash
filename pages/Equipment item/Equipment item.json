@@ -1,0 +1,35 @@
+{
+  "gitSyncId": "6aa3478a31b78c6856a59b3a_79b40d4e-8080-582d-8d46-22ca030bd226",
+  "unpublishedPage": {
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "#FFFFFF",
+          "bottomRow": 1710,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1730,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "fixed",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 124,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": false,
+          "version": 94,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Equipment item",
+    "slug": "equipment-item",
+    "isHidden": true
+  }
+}

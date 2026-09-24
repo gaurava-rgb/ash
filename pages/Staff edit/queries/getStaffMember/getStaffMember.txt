@@ -1,0 +1,1 @@
+select * from staff where id = {{appsmith.URL.queryParams.id}};

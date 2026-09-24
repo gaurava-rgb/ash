@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "none",
+  "defaultText": "{{((getRequest.data && getRequest.data[0] ? getRequest.data[0] : {})[\"notes\"] ?? \"\")}}",
+  "displayName": "Input",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "iconAlign": "left",
+  "inputType": "MULTI_LINE_TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "label": "Notes",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 47,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 35,
+  "originalBottomRow": 47,
+  "originalTopRow": 35,
+  "parentColumnSpace": 19,
+  "parentId": "4cef5cfe31",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "showStepArrows": false,
+  "topRow": 35,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "4704c1b95f",
+  "widgetName": "RequestNotesInput",
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ]
+}

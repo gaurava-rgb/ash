@@ -1,1 +1,0 @@
-select id, name, scan, export, time_spent, email from samples where request_id = {{RequestsTable.selectedRow.id}} order by id;

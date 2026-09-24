@@ -1,7 +1,7 @@
 select
   count(*) filter (where status <> 'Complete') as open_requests,
   count(*) filter (where assignee = 'Unassigned' and status <> 'Complete') as unassigned,
-  count(*) filter (where status <> 'Complete' and due between current_date and current_date + 7) as due_week,
   count(*) filter (where overdue) as overdue,
-  (select count(*) from equipment where condition <> 'Available') as equipment_down
+  count(*) filter (where status = 'Blocked') as blocked,
+  (select count(*) from equipment where active and condition <> 'Available') as equipment_down
 from request_overview;

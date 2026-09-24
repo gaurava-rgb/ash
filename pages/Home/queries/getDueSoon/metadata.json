@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "select code, title, client, assignee, status, to_char(due, 'YYYY-MM-DD') as due, samples_done || ' / ' || sample_count as progress\nfrom request_overview\nwhere status <> 'Complete' and due between current_date and current_date + 14\norder by due;",
+      "body": "select id, code, title, client, assignee, status, to_char(due, 'YYYY-MM-DD') as due, samples_done || ' / ' || sample_count as progress\nfrom request_overview\nwhere status <> 'Complete' and due between current_date and current_date + 14\norder by due;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

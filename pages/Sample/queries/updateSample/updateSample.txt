@@ -1,0 +1,2 @@
+update samples set name = {{SampleNameInput.text}}, scan = {{SampleScan.isChecked}}, export = {{SampleExport.isChecked}}, email = {{SampleEmail.isChecked}},
+  time_spent = {{SampleTimeInput.text}}, active = {{SampleActive.isChecked}}, updated_at = now(), updated_by = {{appsmith.user.email}} where id = {{appsmith.URL.queryParams.id}};

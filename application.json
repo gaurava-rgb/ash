@@ -8,6 +8,9 @@
       "appMaxWidth": "LARGE",
       "density": 1.0,
       "sizing": 1.0
+    },
+    "navigationSetting": {
+      "showNavbar": false
     }
   },
   "applicationVersion": 2,
@@ -24,11 +27,51 @@
       "isDefault": false
     },
     {
+      "id": "Request",
+      "isDefault": false
+    },
+    {
+      "id": "Request edit",
+      "isDefault": false
+    },
+    {
+      "id": "New request",
+      "isDefault": false
+    },
+    {
+      "id": "Sample",
+      "isDefault": false
+    },
+    {
       "id": "Clients",
       "isDefault": false
     },
     {
+      "id": "Client",
+      "isDefault": false
+    },
+    {
+      "id": "Client edit",
+      "isDefault": false
+    },
+    {
       "id": "Equipment",
+      "isDefault": false
+    },
+    {
+      "id": "Equipment item",
+      "isDefault": false
+    },
+    {
+      "id": "Equipment edit",
+      "isDefault": false
+    },
+    {
+      "id": "Staff",
+      "isDefault": false
+    },
+    {
+      "id": "Staff edit",
       "isDefault": false
     }
   ],
@@ -40,6 +83,9 @@
       "appMaxWidth": "LARGE",
       "density": 1.0,
       "sizing": 1.0
+    },
+    "navigationSetting": {
+      "showNavbar": false
     }
   }
 }

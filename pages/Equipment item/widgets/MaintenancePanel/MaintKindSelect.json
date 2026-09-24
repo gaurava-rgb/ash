@@ -1,0 +1,100 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "defaultOptionValue": "Service",
+  "displayName": "Select",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 22,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 0,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 29,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 37,
+  "originalTopRow": 29,
+  "parentColumnSpace": 19,
+  "parentId": "ed5da3f3e6",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "serverSideFiltering": false,
+  "sourceData": [
+    {
+      "label": "Service",
+      "value": "Service"
+    },
+    {
+      "label": "Repair",
+      "value": "Repair"
+    },
+    {
+      "label": "Calibration",
+      "value": "Calibration"
+    },
+    {
+      "label": "Inspection",
+      "value": "Inspection"
+    },
+    {
+      "label": "Other",
+      "value": "Other"
+    }
+  ],
+  "topRow": 29,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "507d71155a",
+  "widgetName": "MaintKindSelect",
+  "options": [
+    {
+      "label": "Service",
+      "value": "Service"
+    },
+    {
+      "label": "Repair",
+      "value": "Repair"
+    },
+    {
+      "label": "Calibration",
+      "value": "Calibration"
+    },
+    {
+      "label": "Inspection",
+      "value": "Inspection"
+    },
+    {
+      "label": "Other",
+      "value": "Other"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ]
+}

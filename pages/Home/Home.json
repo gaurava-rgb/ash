@@ -5,14 +5,14 @@
       {
         "dsl": {
           "backgroundColor": "#FFFFFF",
-          "bottomRow": 1180,
+          "bottomRow": 1340,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1200,
+          "minHeight": 1360,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "positioning": "fixed",
@@ -29,6 +29,7 @@
       }
     ],
     "name": "Home",
-    "slug": "home"
+    "slug": "home",
+    "isHidden": false
   }
 }

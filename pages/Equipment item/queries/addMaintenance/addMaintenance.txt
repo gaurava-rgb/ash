@@ -1,0 +1,1 @@
+insert into equipment_maintenance (equipment_id, done_on, kind, note, created_by) values ({{appsmith.URL.queryParams.id}}, nullif({{MaintDateInput.text}}, '')::date, {{MaintKindSelect.selectedOptionValue}}, {{MaintNoteInput.text}}, {{appsmith.user.email}});

@@ -1,0 +1,1 @@
+select id, name, scan, export, time_spent, email, active from samples where request_id = {{appsmith.URL.queryParams.id}} and (active or {{ShowInactiveSamples.isChecked}}) order by id;

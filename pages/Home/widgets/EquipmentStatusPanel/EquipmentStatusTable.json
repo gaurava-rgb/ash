@@ -36,8 +36,7 @@
     "name",
     "condition",
     "location",
-    "id",
-    "tips"
+    "id"
   ],
   "columnUpdatedAt": 1789085581413,
   "columnWidthMap": {
@@ -45,14 +44,11 @@
     "name": 220,
     "condition": 130,
     "location": 160,
-    "id": 60,
-    "tips": 60
+    "id": 60
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": -1,
-  "defaultSelectedRowIndices": [
-    0
-  ],
+  "defaultSelectedRowIndices": [],
   "delimiter": ",",
   "displayName": "Table",
   "dynamicHeight": "FIXED",
@@ -256,40 +252,6 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 60
-    },
-    "tips": {
-      "alias": "tips",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
-      "columnType": "text",
-      "computedValue": "{{EquipmentStatusTable.processedTableData.map(row => row[\"tips\"])}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "fontStyle": "",
-      "horizontalAlignment": "LEFT",
-      "id": "tips",
-      "index": 5,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "tips",
-      "notation": "standard",
-      "originalId": "tips",
-      "sticky": "",
-      "textColor": "",
-      "textSize": "0.75rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 60
     }
   },
   "renderMode": "CANVAS",
@@ -307,7 +269,12 @@
   "verticalAlignment": "CENTER",
   "widgetId": "b846051a5b",
   "widgetName": "EquipmentStatusTable",
-  "dynamicTriggerPathList": [],
+  "onRowSelected": "{{navigateTo(\"Equipment item\", {id: EquipmentStatusTable.selectedRow.id}, \"SAME_WINDOW\")}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onRowSelected"
+    }
+  ],
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -356,9 +323,6 @@
     },
     {
       "key": "primaryColumns.id.computedValue"
-    },
-    {
-      "key": "primaryColumns.tips.computedValue"
     },
     {
       "key": "tableData"

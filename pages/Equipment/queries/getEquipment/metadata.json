@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "select e.*, (select count(*) from requests r where r.equipment_id = e.id and r.status <> 'Complete') as open_requests from equipment e order by name;",
+      "body": "select e.id, e.code, e.name, e.condition, e.location, e.active, (select count(*) from requests r where r.equipment_id = e.id and r.status <> 'Complete') as open_requests from equipment e order by name;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

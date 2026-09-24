@@ -5,14 +5,14 @@
       {
         "dsl": {
           "backgroundColor": "#FFFFFF",
-          "bottomRow": 1180,
+          "bottomRow": 1310,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1200,
+          "minHeight": 1330,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "positioning": "fixed",
@@ -29,6 +29,7 @@
       }
     ],
     "name": "Requests",
-    "slug": "requests"
+    "slug": "requests",
+    "isHidden": false
   }
 }

@@ -1,0 +1,1 @@
+select id, title, detail, to_char(created_at, 'YYYY-MM-DD') as added, created_by from equipment_tips where equipment_id = {{appsmith.URL.queryParams.id}} order by id desc;

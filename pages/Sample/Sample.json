@@ -1,0 +1,35 @@
+{
+  "gitSyncId": "6aa3478a31b78c6856a59b3a_218a74e3-2991-514a-9dcf-6b589332abfe",
+  "unpublishedPage": {
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "#FFFFFF",
+          "bottomRow": 1180,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1200,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "fixed",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 124,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": false,
+          "version": 94,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Sample",
+    "slug": "sample",
+    "isHidden": true
+  }
+}

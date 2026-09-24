@@ -1,0 +1,1 @@
+insert into clients (name, contact, email, billing, active, updated_by) values ({{ClientNameInput.text}}, {{ClientContactInput.text}}, {{ClientEmailInput.text}}, {{ClientBillingInput.text}}, {{ClientActive.isChecked}}, {{appsmith.user.email}}) returning id, code;

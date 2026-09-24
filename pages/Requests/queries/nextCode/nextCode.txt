@@ -1,1 +1,0 @@
-select 'LAB-' || lpad((coalesce(max(substring(code from '\d+$')::int), 0) + 1)::text, 3, '0') as code from requests where code ~ '^LAB-\d+$';

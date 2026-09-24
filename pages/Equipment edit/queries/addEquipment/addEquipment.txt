@@ -1,0 +1,1 @@
+insert into equipment (name, condition, location, active, updated_by) values ({{EquipmentNameInput.text}}, {{EquipmentConditionSelect.selectedOptionValue}}, {{EquipmentLocationInput.text}}, {{EquipmentActive.isChecked}}, {{appsmith.user.email}}) returning id, code;

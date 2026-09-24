@@ -1,1 +1,0 @@
-insert into equipment (code, name, location) values ((select 'E-' || lpad((coalesce(max(substring(code from '\d+$')::int), 0) + 1)::text, 3, '0') from equipment), {{NewEquipmentName.text}}, {{NewEquipmentLocation.text}});

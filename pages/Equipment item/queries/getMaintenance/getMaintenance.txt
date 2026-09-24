@@ -1,0 +1,1 @@
+select id, to_char(done_on, 'YYYY-MM-DD') as done_on, kind, note, created_by from equipment_maintenance where equipment_id = {{appsmith.URL.queryParams.id}} order by done_on desc, id desc;

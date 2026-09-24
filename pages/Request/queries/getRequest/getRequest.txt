@@ -1,0 +1,1 @@
+select *, to_char(due, 'YYYY-MM-DD') as due_text, to_char(submitted, 'YYYY-MM-DD') as submitted_text from request_overview where id = {{appsmith.URL.queryParams.id}};

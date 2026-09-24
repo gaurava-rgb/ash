@@ -1,6 +1,0 @@
-update requests set title = {{RequestTitleInput.text}}, client_id = {{RequestClientSelect.selectedOptionValue}},
-  equipment_id = {{RequestEquipmentSelect.selectedOptionValue}}, status = {{RequestStatusSelect.selectedOptionValue}},
-  assignee = {{RequestAssigneeSelect.selectedOptionValue}}, submitted = nullif({{RequestSubmittedInput.text}}, '')::date,
-  due = nullif({{RequestDueInput.text}}, '')::date, save_location = {{RequestSaveInput.text}}, notes = {{RequestNotesInput.text}},
-  updated_at = now()
-where id = {{RequestsTable.selectedRow.id}};

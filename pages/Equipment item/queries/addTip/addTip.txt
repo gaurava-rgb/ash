@@ -1,0 +1,1 @@
+insert into equipment_tips (equipment_id, title, detail, created_by) values ({{appsmith.URL.queryParams.id}}, {{TipTitleInput.text}}, {{TipDetailInput.text}}, {{appsmith.user.email}});

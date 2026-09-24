@@ -1,0 +1,1 @@
+update clients set name = {{ClientNameInput.text}}, contact = {{ClientContactInput.text}}, email = {{ClientEmailInput.text}}, billing = {{ClientBillingInput.text}}, active = {{ClientActive.isChecked}}, updated_at = now(), updated_by = {{appsmith.user.email}} where id = {{appsmith.URL.queryParams.id}};

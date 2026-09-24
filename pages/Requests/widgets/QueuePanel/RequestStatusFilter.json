@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 20,
+  "bottomRow": 16,
   "boxShadow": "none",
   "defaultOptionValue": "All",
   "displayName": "Select",
@@ -19,18 +19,18 @@
   "labelText": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 2,
+  "leftColumn": 40,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 0,
-  "mobileBottomRow": 20,
-  "mobileLeftColumn": 2,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 40,
   "mobileRightColumn": 62,
-  "mobileTopRow": 12,
+  "mobileTopRow": 8,
   "optionLabel": "label",
   "optionValue": "value",
-  "originalBottomRow": 20,
-  "originalTopRow": 12,
+  "originalBottomRow": 16,
+  "originalTopRow": 8,
   "parentColumnSpace": 19,
   "parentId": "33e1d38f5e",
   "parentRowSpace": 10,
@@ -61,7 +61,7 @@
       "value": "Complete"
     }
   ],
-  "topRow": 12,
+  "topRow": 8,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "fdb23421f5",
@@ -88,12 +88,7 @@
       "value": "Complete"
     }
   ],
-  "onOptionChange": "{{Flow.resetDetail()}}",
-  "dynamicTriggerPathList": [
-    {
-      "key": "onOptionChange"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

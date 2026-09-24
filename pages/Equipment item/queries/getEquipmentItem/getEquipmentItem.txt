@@ -1,0 +1,1 @@
+select * from equipment where id = {{appsmith.URL.queryParams.id}};
