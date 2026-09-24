@@ -38,7 +38,6 @@
   "widgetId": "6f51f39d74",
   "widgetName": "TileOpen4",
   "onClick": "{{navigateTo(\"Equipment\", {filter: \"down\"}, \"SAME_WINDOW\")}}",
-  "tooltip": "Open the list",
   "dynamicTriggerPathList": [
     {
       "key": "onClick"

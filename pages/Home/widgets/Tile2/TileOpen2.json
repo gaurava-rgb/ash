@@ -38,7 +38,6 @@
   "widgetId": "8afc0045d4",
   "widgetName": "TileOpen2",
   "onClick": "{{navigateTo(\"Requests\", {filter: \"overdue\"}, \"SAME_WINDOW\")}}",
-  "tooltip": "Open the list",
   "dynamicTriggerPathList": [
     {
       "key": "onClick"

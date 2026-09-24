@@ -38,7 +38,6 @@
   "widgetId": "16cfcf0d55",
   "widgetName": "TileOpen1",
   "onClick": "{{navigateTo(\"Requests\", {filter: \"unassigned\"}, \"SAME_WINDOW\")}}",
-  "tooltip": "Open the list",
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
