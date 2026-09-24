@@ -48,7 +48,7 @@
   "columnWidthMap": {
     "name": 240,
     "scanLabel": 110,
-    "exportLabel": 111,
+    "exportLabel": 110,
     "time_spent": 120,
     "emailLabel": 110,
     "state": 120,
@@ -195,7 +195,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 111
+      "width": 110
     },
     "time_spent": {
       "alias": "time_spent",

@@ -44,10 +44,10 @@
   "columnUpdatedAt": 1789085581413,
   "columnWidthMap": {
     "code": 80,
-    "title": 170,
-    "reason": 100,
-    "assignee": 133,
-    "due": 90,
+    "title": 140,
+    "reason": 90,
+    "assignee": 112,
+    "due": 100,
     "id": 60,
     "client": 60,
     "status": 60
@@ -155,7 +155,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 170
+      "width": 140
     },
     "reason": {
       "alias": "reason",
@@ -189,7 +189,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 100
+      "width": 90
     },
     "assignee": {
       "alias": "assignee",
@@ -223,7 +223,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 133
+      "width": 112
     },
     "due": {
       "alias": "due",
@@ -257,7 +257,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 90
+      "width": 100
     },
     "id": {
       "alias": "id",

@@ -45,9 +45,9 @@
   "columnWidthMap": {
     "code": 80,
     "name": 240,
-    "condition": 144,
+    "condition": 130,
     "location": 170,
-    "open_requests": 188,
+    "open_requests": 157,
     "state": 100,
     "id": 60,
     "active": 60
@@ -189,7 +189,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 144
+      "width": 130
     },
     "location": {
       "alias": "location",
@@ -257,7 +257,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 188
+      "width": 157
     },
     "state": {
       "alias": "state",

@@ -43,7 +43,7 @@
   "columnUpdatedAt": 1789085581413,
   "columnWidthMap": {
     "when": 130,
-    "what": 111,
+    "what": 110,
     "field": 100,
     "old_value": 130,
     "new_value": 130,
@@ -153,7 +153,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 111
+      "width": 110
     },
     "field": {
       "alias": "field",

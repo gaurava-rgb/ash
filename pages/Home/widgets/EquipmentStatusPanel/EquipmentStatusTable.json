@@ -42,7 +42,7 @@
   "columnWidthMap": {
     "code": 80,
     "name": 220,
-    "condition": 144,
+    "condition": 130,
     "location": 160,
     "id": 60
   },
@@ -183,7 +183,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 144
+      "width": 130
     },
     "location": {
       "alias": "location",

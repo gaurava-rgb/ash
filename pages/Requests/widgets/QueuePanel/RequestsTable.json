@@ -58,8 +58,8 @@
     "title": 260,
     "client": 200,
     "equipment": 170,
-    "status": 111,
-    "assignee": 133,
+    "status": 94,
+    "assignee": 120,
     "due": 100,
     "id": 60,
     "submitted": 60,
@@ -279,7 +279,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 111
+      "width": 94
     },
     "assignee": {
       "alias": "assignee",
@@ -313,7 +313,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 133
+      "width": 120
     },
     "due": {
       "alias": "due",

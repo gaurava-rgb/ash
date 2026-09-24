@@ -42,7 +42,7 @@
   "columnWidthMap": {
     "title": 150,
     "detail": 260,
-    "added": 100,
+    "added": 90,
     "id": 60,
     "created_by": 60
   },
@@ -183,7 +183,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 100
+      "width": 90
     },
     "id": {
       "alias": "id",
