@@ -5,7 +5,7 @@
   "borderColor": "#DDE3EA",
   "borderRadius": "8px",
   "borderWidth": "1",
-  "bottomRow": 50,
+  "bottomRow": 42,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -46,8 +46,8 @@
     "code": 80,
     "title": 160,
     "due": 90,
-    "assignee": 110,
-    "progress": 100,
+    "assignee": 133,
+    "progress": 122,
     "id": 60,
     "client": 60,
     "status": 60
@@ -77,12 +77,12 @@
   "label": "Data",
   "leftColumn": 2,
   "minWidth": 0,
-  "mobileBottomRow": 50,
+  "mobileBottomRow": 42,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 62,
   "mobileTopRow": 9,
   "needsHeightForContent": true,
-  "originalBottomRow": 50,
+  "originalBottomRow": 42,
   "originalTopRow": 9,
   "parentColumnSpace": 19,
   "parentId": "1b05570fbe",
@@ -223,7 +223,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 110
+      "width": 133
     },
     "progress": {
       "alias": "progress",
@@ -257,7 +257,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 100
+      "width": 122
     },
     "id": {
       "alias": "id",

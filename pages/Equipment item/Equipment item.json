@@ -5,14 +5,14 @@
       {
         "dsl": {
           "backgroundColor": "#FFFFFF",
-          "bottomRow": 1710,
+          "bottomRow": 1840,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1730,
+          "minHeight": 1860,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "positioning": "fixed",

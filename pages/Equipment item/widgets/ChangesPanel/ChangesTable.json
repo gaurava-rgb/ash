@@ -5,7 +5,7 @@
   "borderColor": "#DDE3EA",
   "borderRadius": "8px",
   "borderWidth": "1",
-  "bottomRow": 34,
+  "bottomRow": 39,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -43,7 +43,7 @@
   "columnUpdatedAt": 1789085581413,
   "columnWidthMap": {
     "when": 130,
-    "what": 110,
+    "what": 111,
     "field": 100,
     "old_value": 130,
     "new_value": 130,
@@ -75,12 +75,12 @@
   "label": "Data",
   "leftColumn": 2,
   "minWidth": 0,
-  "mobileBottomRow": 34,
+  "mobileBottomRow": 39,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 62,
   "mobileTopRow": 6,
   "needsHeightForContent": true,
-  "originalBottomRow": 34,
+  "originalBottomRow": 39,
   "originalTopRow": 6,
   "parentColumnSpace": 19,
   "parentId": "bed3a55a60",
@@ -153,7 +153,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 110
+      "width": 111
     },
     "field": {
       "alias": "field",

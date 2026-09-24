@@ -5,7 +5,7 @@
   "borderColor": "#DDE3EA",
   "borderRadius": "8px",
   "borderWidth": "1",
-  "bottomRow": 32,
+  "bottomRow": 39,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -43,8 +43,8 @@
   "columnWidthMap": {
     "code": 80,
     "title": 260,
-    "status": 90,
-    "assignee": 130,
+    "status": 111,
+    "assignee": 133,
     "due": 100,
     "id": 60
   },
@@ -73,12 +73,12 @@
   "label": "Data",
   "leftColumn": 2,
   "minWidth": 0,
-  "mobileBottomRow": 32,
+  "mobileBottomRow": 39,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 62,
   "mobileTopRow": 6,
   "needsHeightForContent": true,
-  "originalBottomRow": 32,
+  "originalBottomRow": 39,
   "originalTopRow": 6,
   "parentColumnSpace": 19,
   "parentId": "8def2bd695",
@@ -185,7 +185,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 90
+      "width": 111
     },
     "assignee": {
       "alias": "assignee",
@@ -219,7 +219,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 130
+      "width": 133
     },
     "due": {
       "alias": "due",

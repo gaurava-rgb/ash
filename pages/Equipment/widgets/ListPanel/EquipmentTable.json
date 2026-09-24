@@ -5,7 +5,7 @@
   "borderColor": "#DDE3EA",
   "borderRadius": "8px",
   "borderWidth": "1",
-  "bottomRow": 86,
+  "bottomRow": 57,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -45,9 +45,9 @@
   "columnWidthMap": {
     "code": 80,
     "name": 240,
-    "condition": 130,
+    "condition": 144,
     "location": 170,
-    "open_requests": 130,
+    "open_requests": 188,
     "state": 100,
     "id": 60,
     "active": 60
@@ -77,12 +77,12 @@
   "label": "Data",
   "leftColumn": 2,
   "minWidth": 0,
-  "mobileBottomRow": 86,
+  "mobileBottomRow": 57,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 62,
   "mobileTopRow": 8,
   "needsHeightForContent": true,
-  "originalBottomRow": 86,
+  "originalBottomRow": 57,
   "originalTopRow": 8,
   "parentColumnSpace": 19,
   "parentId": "8b8901203b",
@@ -189,7 +189,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 130
+      "width": 144
     },
     "location": {
       "alias": "location",
@@ -257,7 +257,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 130
+      "width": 188
     },
     "state": {
       "alias": "state",

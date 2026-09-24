@@ -5,7 +5,7 @@
   "borderColor": "#DDE3EA",
   "borderRadius": "8px",
   "borderWidth": "1",
-  "bottomRow": 28,
+  "bottomRow": 39,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -42,7 +42,7 @@
   "columnWidthMap": {
     "code": 80,
     "name": 220,
-    "condition": 130,
+    "condition": 144,
     "location": 160,
     "id": 60
   },
@@ -71,12 +71,12 @@
   "label": "Data",
   "leftColumn": 2,
   "minWidth": 0,
-  "mobileBottomRow": 28,
+  "mobileBottomRow": 39,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 62,
   "mobileTopRow": 6,
   "needsHeightForContent": true,
-  "originalBottomRow": 28,
+  "originalBottomRow": 39,
   "originalTopRow": 6,
   "parentColumnSpace": 19,
   "parentId": "8fa7bb271f",
@@ -183,7 +183,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 130
+      "width": 144
     },
     "location": {
       "alias": "location",

@@ -5,7 +5,7 @@
   "borderColor": "#DDE3EA",
   "borderRadius": "8px",
   "borderWidth": "1",
-  "bottomRow": 50,
+  "bottomRow": 42,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -46,7 +46,7 @@
     "code": 80,
     "title": 170,
     "reason": 100,
-    "assignee": 110,
+    "assignee": 133,
     "due": 90,
     "id": 60,
     "client": 60,
@@ -77,12 +77,12 @@
   "label": "Data",
   "leftColumn": 2,
   "minWidth": 0,
-  "mobileBottomRow": 50,
+  "mobileBottomRow": 42,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 62,
   "mobileTopRow": 9,
   "needsHeightForContent": true,
-  "originalBottomRow": 50,
+  "originalBottomRow": 42,
   "originalTopRow": 9,
   "parentColumnSpace": 19,
   "parentId": "df06de8d18",
@@ -223,7 +223,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 110
+      "width": 133
     },
     "due": {
       "alias": "due",
