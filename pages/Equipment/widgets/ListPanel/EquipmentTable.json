@@ -47,8 +47,8 @@
     "name": 240,
     "condition": 130,
     "location": 170,
-    "open_requests": 110,
-    "state": 80,
+    "open_requests": 130,
+    "state": 100,
     "id": 60,
     "active": 60
   },
@@ -257,7 +257,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 110
+      "width": 130
     },
     "state": {
       "alias": "state",
@@ -291,7 +291,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 80
+      "width": 100
     },
     "id": {
       "alias": "id",

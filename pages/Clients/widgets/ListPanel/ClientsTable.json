@@ -48,8 +48,8 @@
     "name": 260,
     "contact": 160,
     "email": 180,
-    "request_count": 90,
-    "state": 80,
+    "request_count": 110,
+    "state": 100,
     "id": 60,
     "billing": 60,
     "active": 60
@@ -259,7 +259,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 90
+      "width": 110
     },
     "state": {
       "alias": "state",
@@ -293,7 +293,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 80
+      "width": 100
     },
     "id": {
       "alias": "id",

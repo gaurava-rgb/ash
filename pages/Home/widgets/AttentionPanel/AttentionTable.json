@@ -45,7 +45,7 @@
   "columnWidthMap": {
     "code": 80,
     "title": 170,
-    "reason": 90,
+    "reason": 100,
     "assignee": 110,
     "due": 90,
     "id": 60,
@@ -189,7 +189,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 90
+      "width": 100
     },
     "assignee": {
       "alias": "assignee",

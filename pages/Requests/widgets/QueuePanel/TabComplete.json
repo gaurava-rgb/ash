@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "buttonColor": "#1E6B5C",
+  "buttonVariant": "{{(appsmith.store.statusFilter || \"All\") === \"Complete\" ? \"PRIMARY\" : \"SECONDARY\"}}",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 38,
+  "minWidth": 0,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 15,
+  "originalBottomRow": 19,
+  "originalTopRow": 15,
+  "parentColumnSpace": 19,
+  "parentId": "33e1d38f5e",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 47,
+  "text": "{{\"Complete (\" + (getRequests.data || []).filter(r => r.status === \"Complete\").length + \")\"}}",
+  "topRow": 15,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "2f45dc8940",
+  "widgetName": "TabComplete",
+  "onClick": "{{storeValue(\"statusFilter\", \"Complete\")}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonVariant"
+    },
+    {
+      "key": "text"
+    }
+  ]
+}

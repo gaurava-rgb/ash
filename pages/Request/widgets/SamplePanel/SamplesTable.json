@@ -46,12 +46,12 @@
   ],
   "columnUpdatedAt": 1789085581413,
   "columnWidthMap": {
-    "name": 200,
-    "scanLabel": 70,
-    "exportLabel": 70,
-    "time_spent": 90,
-    "emailLabel": 70,
-    "state": 80,
+    "name": 240,
+    "scanLabel": 110,
+    "exportLabel": 110,
+    "time_spent": 120,
+    "emailLabel": 110,
+    "state": 120,
     "id": 60,
     "scan": 60,
     "export": 60,
@@ -127,7 +127,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 200
+      "width": 240
     },
     "scanLabel": {
       "alias": "scanLabel",
@@ -161,7 +161,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 70
+      "width": 110
     },
     "exportLabel": {
       "alias": "exportLabel",
@@ -195,7 +195,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 70
+      "width": 110
     },
     "time_spent": {
       "alias": "time_spent",
@@ -229,7 +229,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 90
+      "width": 120
     },
     "emailLabel": {
       "alias": "emailLabel",
@@ -263,7 +263,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 70
+      "width": 110
     },
     "state": {
       "alias": "state",
@@ -297,7 +297,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 80
+      "width": 120
     },
     "id": {
       "alias": "id",

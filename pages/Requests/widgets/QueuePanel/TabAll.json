@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "8px",
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "buttonColor": "#1E6B5C",
+  "buttonVariant": "{{(appsmith.store.statusFilter || \"All\") === \"All\" ? \"PRIMARY\" : \"SECONDARY\"}}",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 2,
+  "minWidth": 0,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 11,
+  "mobileTopRow": 15,
+  "originalBottomRow": 19,
+  "originalTopRow": 15,
+  "parentColumnSpace": 19,
+  "parentId": "33e1d38f5e",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 11,
+  "text": "{{\"All (\" + (getRequests.data || []).filter(r => true).length + \")\"}}",
+  "topRow": 15,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "74684773c6",
+  "widgetName": "TabAll",
+  "onClick": "{{storeValue(\"statusFilter\", \"All\")}}",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonVariant"
+    },
+    {
+      "key": "text"
+    }
+  ]
+}

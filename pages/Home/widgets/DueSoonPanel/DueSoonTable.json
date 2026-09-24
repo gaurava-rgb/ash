@@ -47,7 +47,7 @@
     "title": 160,
     "due": 90,
     "assignee": 110,
-    "progress": 80,
+    "progress": 100,
     "id": 60,
     "client": 60,
     "status": 60
@@ -257,7 +257,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 80
+      "width": 100
     },
     "id": {
       "alias": "id",

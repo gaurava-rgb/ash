@@ -46,7 +46,7 @@
     "name": 220,
     "user_type": 90,
     "description": 300,
-    "state": 80,
+    "state": 100,
     "id": 60,
     "active": 60
   },
@@ -255,7 +255,7 @@
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
-      "width": 80
+      "width": 100
     },
     "id": {
       "alias": "id",
