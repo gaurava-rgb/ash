@@ -41,24 +41,16 @@
   "serverSideFiltering": false,
   "sourceData": [
     {
-      "label": "All",
-      "value": "All"
+      "label": "Available",
+      "value": "Available"
     },
     {
-      "label": "New",
-      "value": "New"
+      "label": "Under repair",
+      "value": "Under repair"
     },
     {
-      "label": "Active",
-      "value": "Active"
-    },
-    {
-      "label": "Blocked",
-      "value": "Blocked"
-    },
-    {
-      "label": "Complete",
-      "value": "Complete"
+      "label": "Out of service",
+      "value": "Out of service"
     }
   ],
   "topRow": 14,

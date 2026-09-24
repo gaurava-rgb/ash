@@ -39,28 +39,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 31,
   "serverSideFiltering": false,
-  "sourceData": [
-    {
-      "label": "All",
-      "value": "All"
-    },
-    {
-      "label": "New",
-      "value": "New"
-    },
-    {
-      "label": "Active",
-      "value": "Active"
-    },
-    {
-      "label": "Blocked",
-      "value": "Blocked"
-    },
-    {
-      "label": "Complete",
-      "value": "Complete"
-    }
-  ],
+  "sourceData": "{{[{label: \"Unassigned\", value: \"Unassigned\"}].concat((getStaff.data || []).map(r => ({label: r.name, value: r.name})))}}",
   "topRow": 23,
   "type": "SELECT_WIDGET",
   "version": 1,
@@ -74,6 +53,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     },
     {
       "key": "options"

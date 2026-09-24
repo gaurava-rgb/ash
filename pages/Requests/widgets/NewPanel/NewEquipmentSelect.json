@@ -39,28 +39,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "serverSideFiltering": false,
-  "sourceData": [
-    {
-      "label": "All",
-      "value": "All"
-    },
-    {
-      "label": "New",
-      "value": "New"
-    },
-    {
-      "label": "Active",
-      "value": "Active"
-    },
-    {
-      "label": "Blocked",
-      "value": "Blocked"
-    },
-    {
-      "label": "Complete",
-      "value": "Complete"
-    }
-  ],
+  "sourceData": "{{(getEquipment.data || []).map(r => ({label: r.name, value: r.id}))}}",
   "topRow": 14,
   "type": "SELECT_WIDGET",
   "version": 1,
@@ -74,6 +53,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     },
     {
       "key": "options"

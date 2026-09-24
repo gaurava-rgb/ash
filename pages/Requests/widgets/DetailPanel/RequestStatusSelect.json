@@ -41,10 +41,6 @@
   "serverSideFiltering": false,
   "sourceData": [
     {
-      "label": "All",
-      "value": "All"
-    },
-    {
       "label": "New",
       "value": "New"
     },
