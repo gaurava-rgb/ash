@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "update requests set title = {{RequestTitleInput.text}}, client_id = nullif({{RequestClientSelect.selectedOptionValue}}, '')::int,\n  equipment_id = nullif({{RequestEquipmentSelect.selectedOptionValue}}, '')::int, status = {{RequestStatusSelect.selectedOptionValue}},\n  assignee = {{RequestAssigneeSelect.selectedOptionValue}}, submitted = nullif({{RequestSubmittedInput.text}}, '')::date,\n  due = nullif({{RequestDueInput.text}}, '')::date, save_location = {{RequestSaveInput.text}}, notes = {{RequestNotesInput.text}},\n  updated_at = now(), updated_by = {{appsmith.user.email}}\nwhere id = {{appsmith.URL.queryParams.id}};",
+      "body": "update requests set title = {{RequestTitleInput.text}}, client_id = nullif({{RequestClientSelect.selectedOptionValue}}::text, '')::int,\n  equipment_id = nullif({{RequestEquipmentSelect.selectedOptionValue}}::text, '')::int, status = {{RequestStatusSelect.selectedOptionValue}},\n  assignee = {{RequestAssigneeSelect.selectedOptionValue}}, submitted = nullif({{RequestSubmittedInput.text}}, '')::date,\n  due = nullif({{RequestDueInput.text}}, '')::date, save_location = {{RequestSaveInput.text}}, notes = {{RequestNotesInput.text}},\n  updated_at = now(), updated_by = {{appsmith.user.email}}\nwhere id = {{appsmith.URL.queryParams.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

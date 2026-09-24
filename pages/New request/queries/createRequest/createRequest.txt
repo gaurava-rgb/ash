@@ -1,4 +1,4 @@
 insert into requests (title, client_id, equipment_id, assignee, status, submitted, due, notes, updated_by)
-values ({{NewTitleInput.text}}, nullif({{NewClientSelect.selectedOptionValue}}, '')::int, nullif({{NewEquipmentSelect.selectedOptionValue}}, '')::int,
+values ({{NewTitleInput.text}}, nullif({{NewClientSelect.selectedOptionValue}}::text, '')::int, nullif({{NewEquipmentSelect.selectedOptionValue}}::text, '')::int,
   {{NewAssigneeSelect.selectedOptionValue}}, 'New', nullif({{NewSubmittedInput.text}}, '')::date, nullif({{NewDueInput.text}}, '')::date, {{NewNotesInput.text}}, {{appsmith.user.email}})
 returning id, code;

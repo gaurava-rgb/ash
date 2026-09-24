@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "insert into requests (title, client_id, equipment_id, assignee, status, submitted, due, notes, updated_by)\nvalues ({{NewTitleInput.text}}, nullif({{NewClientSelect.selectedOptionValue}}, '')::int, nullif({{NewEquipmentSelect.selectedOptionValue}}, '')::int,\n  {{NewAssigneeSelect.selectedOptionValue}}, 'New', nullif({{NewSubmittedInput.text}}, '')::date, nullif({{NewDueInput.text}}, '')::date, {{NewNotesInput.text}}, {{appsmith.user.email}})\nreturning id, code;",
+      "body": "insert into requests (title, client_id, equipment_id, assignee, status, submitted, due, notes, updated_by)\nvalues ({{NewTitleInput.text}}, nullif({{NewClientSelect.selectedOptionValue}}::text, '')::int, nullif({{NewEquipmentSelect.selectedOptionValue}}::text, '')::int,\n  {{NewAssigneeSelect.selectedOptionValue}}, 'New', nullif({{NewSubmittedInput.text}}, '')::date, nullif({{NewDueInput.text}}, '')::date, {{NewNotesInput.text}}, {{appsmith.user.email}})\nreturning id, code;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
